@@ -29,7 +29,7 @@ override func viewDidLoad() {
             }
         }
         
-        let queue = DispatchQueue(label: "Monitor")
+        let queue = DispatchQueue(label: "Current Connection Status")
         monitor.start(queue: queue)
 
 }
